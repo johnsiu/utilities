@@ -9,7 +9,7 @@ YB_RELEASE=$1
 YB_VERSION=${YB_RELEASE%-*}
 YB_HOME=/home/${USER}/yugabyte-db
 YB_DL_BASE="https://downloads.yugabyte.com/releases"
-YB_PACKAGE_URL="${YB_DL_BASE}/${YB_VERSION}/yugabyte-${YB_RELEASE}-linux-x86_64.tar.gz"
+YB_PACKAGE_URL="${YB_DL_BASE}/${YB_VERSION}/yugabyte-${YB_RELEASE}.tar.gz"
 YB_PACKAGE_NAME="${YB_PACKAGE_URL##*/}"
 
 ###############################################################################
